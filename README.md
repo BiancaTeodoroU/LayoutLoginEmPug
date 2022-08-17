@@ -1,8 +1,8 @@
 # LayoutLoginEmPug
 
-# Tela de login feita utilizando Pug e scss
-## Design feito por mim no figma
+## Tela de login feita utilizando Pug e scss
 
+## Design feito por mim no figma
 ## Para rodar o pug
     npm run start
 
