@@ -1,0 +1,13 @@
+/** generic **/
+@import "./generic/base.scss";
+@import "./generic/box-sizing.scss";
+
+/** objects **/
+@import "./objects/container.scss";
+
+/** components **/
+@import "../../frontend/sectionLoginTitle/sectionLoginTitle.scss";
+@import "../../frontend/welcome/welcome.scss";
+@import "../../frontend/sectionAuthentication/sectionAuthentication.scss";
+
+@import "../../frontend/product/product.scss";

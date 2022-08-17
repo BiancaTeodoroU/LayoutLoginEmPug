@@ -1,0 +1,10 @@
+mixin welcome(props = {})
+    -
+        let state = {
+            title: props.title,
+        }
+
+    .c-welcome
+        span(class="c-welcome__title")
+            | Welcome!
+

@@ -1,0 +1,15 @@
+include ./__shared__/dependencies
+
+doctype html
+html(lang="pt-BR")
+    head
+        meta(charset="utf-8")
+        title Academi-project
+
+        link(rel="stylesheet" href="../styles/main.scss")
+    body
+        +product({
+            sectionLoginTitle: 'Sessão de login',
+            welcome: 'welcome',
+            sectionAuthentication: 'nome:',
+        })
