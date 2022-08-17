@@ -1,0 +1,17 @@
+mixin product(props = {})
+    -
+        let state = {
+            sectionLoginTitle: props.sectionLoginTitle,
+            welcome: props.welcome,
+            sectionAuthentication: props.sectionAuthentication,
+            product: props.product,
+        }
+
+    .c-product__sectionLoginTitle
+        +sectionLoginTitle({ text: state.sectionLoginTitle})
+
+    .c-product__welcome 
+        +welcome({ text: state.welcome})
+
+    .c-product__sectionAuthentication
+        +sectionAuthentication({ image: state.sectionAuthentication})
