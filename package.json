@@ -12,7 +12,7 @@
     "build": "parcel build"
   },
   "keywords": [],
-  "author": "Anne Carvalho",
+  "author": "Anne Carvalho, Bianca Teodoro",
   "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-pug": "^2.6.2",
